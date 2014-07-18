@@ -110,7 +110,7 @@ class Listener:
             ""
         )
 
-"""
+
 tree = QuarkTree("/home/planck/PycharmProjects")
 tree.show(tree.root, "")
 listener = Listener(tree)
@@ -131,7 +131,7 @@ listener.change_directory("./first_design")
 print "It is directory: " + str(listener.working_quark.isdir)
 print "Working directory"
 
-
+"""
 for branch in a.root.branches:
     branch.grow()
 
